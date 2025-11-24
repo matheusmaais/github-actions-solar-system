@@ -50,7 +50,7 @@ jobs:
           run: npm install
         - name: Run Code-coverage
           if: always()
-          run: npm run code-coverage
+          run: npm run coverage
         - name: Upload Artifact
           uses: actions/upload-artifact@v4
           if: always()
